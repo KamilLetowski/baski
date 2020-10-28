@@ -1,8 +1,14 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
+import AOS from 'aos';
+
+import 'normalize.css';
+import './styles/main.scss';
+import 'aos/dist/aos.css';
+import 'antd/dist/antd.css';
+AOS.init();
 
 ReactDOM.render(
   <React.StrictMode>
